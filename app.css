@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Container styles */
+#main {
+    max-width: 100vh;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* Hero image styles */
+.hero-image__container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.hero-image__background {
+    height: 50vh; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.headshot_holder img {
+    display:ruby-base;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/* Hero text styles */
+.hero-image__text {
+    transform:translate(29%, -120%);
+    color: #6a7379;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    max-width: 100vh;
+    margin: 25px;
+}
+
+/* Profile information styles */
+.row {
+    margin-top: -150px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+/* Bio and Name styles */
+h1 {
+    font-size: 2em;
+    /* margin-bottom: 10px; */
+}
+
+/* Additional styles */
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .hero-image__background {
+        height: 20px; /* Adjust for smaller screens */
+    }
+}
